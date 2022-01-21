@@ -14,7 +14,7 @@ import Salim from "./components/Salim/Salim";
 import Sandra from "./components/Sandra/Sandra";
 import Stanislas from "./components/Stanislas/Stanislas";
 import Vincent from "./components/Vincent/Vincent";
-
+import './App.css'
 
 
 function App() {
