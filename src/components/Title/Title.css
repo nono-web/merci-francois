@@ -1,0 +1,15 @@
+.title-app {
+  margin: 3rem;
+  height: 70px;
+  font-size: 2.5rem;
+  align-items: center;
+  color: var(--blue);
+  font-family: 'Press Start 2P', cursive; 
+  transition: all 0.2s ease-out;
+}
+
+.title-app:hover {
+  cursor: pointer;
+  color: var(--pink);
+  font-size: 3rem;
+}
