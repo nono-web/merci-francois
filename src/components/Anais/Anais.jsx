@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import './Anais.css';
+
 import img1 from '../../assets/sea.jpeg';
 import img2 from '../../assets/scie.jpeg';
 import img3 from '../../assets/franc.jpeg';
 import img4 from '../../assets/silk.jpeg';
+
+import './Anais.css';
 
 const Anais = () => {
   const [isCorrect, setIsCorrect] = useState(false);
