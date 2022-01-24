@@ -17,6 +17,7 @@ import Vincent from './components/Vincent/Vincent';
 import Footer from './components/Footer/Footer';
 
 import './App.css';
+import Lemurien from './components/Lemurien/Lemurien';
 
 function App() {
   const students = [
@@ -49,6 +50,7 @@ function App() {
           </section>
         );
       })}
+      <Lemurien />
       <Footer />
     </div>
   );
