@@ -1,0 +1,33 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 90px;
+  max-height: fit-content;
+  padding: 1rem 5rem;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  line-height: 1.8rem;
+  background-color: var(--blue);
+  color: var(--pink);
+  transition: all 0.2s ease-out;
+}
+
+footer:hover {
+  background-color: var(--light-blue);
+  color: var(--bright-pink);
+}
+
+footer p {
+  font-size: 0.8rem;
+  font-family: 'Press Start 2P', cursive; 
+}
+
+.footer-emojis {
+  font-size: 1.2rem;
+}
