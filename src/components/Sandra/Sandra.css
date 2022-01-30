@@ -1,0 +1,102 @@
+.containerSandra {
+  width: 1000px;
+  height: 500px;
+  background: url("../../assets/sandraimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow:
+    inset -10px -10px 10px #ffffff70,
+    inset 10px 10px 10px #aeaec020;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.5fr ;
+}
+.merci{
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.squ{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height:100px;
+  background: #3a6e9a;
+  border-radius: 50%;
+  margin: 10px;
+  color: white;
+  font-size: larger;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  overflow: hidden;
+  box-shadow:
+  -10px -10px 30px #fff,
+  10px 10px 30px #aeaec040;
+}
+
+@keyframes slidein {
+  from {
+    width: 10px;
+    height: 10px;
+    color: #3a6e9a;
+  }
+
+  to {
+    margin-left: 0%;
+    border-radius: 0%;
+  }
+}
+
+.francois{
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+  height: 100%;
+  width: 90%;
+  box-shadow:
+    -10px -10px 30px #fff,
+    10px 10px 30px #aeaec040;
+}
+.fr{
+  color: #3a6e9a;
+  font-size: 100px;
+  animation: bounce1 5s ease-in-out infinite;
+}
+
+.titlefr {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#3a6e9a, #9198e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes bounce1 {
+  from {
+    margin-top: -300px;
+  }
+  25%{
+    margin-top: 0px;
+  }
+  50%{
+    margin-top: -60px;
+  }
+  75%{
+    margin-left:-150px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+
