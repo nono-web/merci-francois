@@ -14,7 +14,7 @@ const Sandra = () => {
             </div>
             <div class="francois">
                 <div className='fr'>
-                   <h1 className='titlefr'>FRANCOIS</h1>
+                   <h1 className='titlefr'>FRANCOIS PRESIDENT</h1>
                 </div>
             </div>
             <div className='sign'>

@@ -26,12 +26,12 @@
   justify-content: center;
   width: 100px;
   height:100px;
-  background: #3a6e9a;
+  background: -webkit-linear-gradient(#3a6e9a, #9198e5);
   border-radius: 50%;
   margin: 10px;
-  color: white;
-  font-size: larger;
-  animation-duration: 5s;
+  font-size: 30px;
+  font-weight: bold;
+  animation-duration: 10s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   overflow: hidden;
@@ -42,18 +42,31 @@
 
 @keyframes slidein {
   from {
+    color: transparent;
     width: 10px;
     height: 10px;
-    color: #3a6e9a;
   }
 
-  50% {
-    border-radius: 25%;
+  33% {
+    color: transparent;
+    border-radius: 50%;
+  }
+  36% {
+    color: white;
+  }
+  66% {
+    margin-left: 0%;
+    border-radius: 10%;
+    width: 100px;
+    height:100px;
+    font-size: 30px;
+    color: white;
   }
 
   to {
-    margin-left: 0%;
-    border-radius: 5%;
+    color: transparent;
+    width: 10px;
+    height: 10px;
   }
 }
 
@@ -75,12 +88,12 @@
 .fr{
   color: #3a6e9a;
   font-size: 100px;
-  animation: bounce1 5s ease-in-out infinite;
+  animation: bounce1 5s ease infinite;
 }
 
 .titlefr {
   font-family: Comic Sans MS;
-  font-size: 72px;
+  font-size: 60px;
   background: -webkit-linear-gradient(#3a6e9a, #9198e5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -97,7 +110,7 @@
     margin-top: -60px;
   }
   75%{
-    margin-left:-150px;
+    margin-left:-100px;
   }
   to {
     margin-top: 0px;
