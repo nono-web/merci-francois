@@ -47,9 +47,13 @@
     color: #3a6e9a;
   }
 
+  50% {
+    border-radius: 25%;
+  }
+
   to {
     margin-left: 0%;
-    border-radius: 0%;
+    border-radius: 5%;
   }
 }
 
@@ -75,6 +79,7 @@
 }
 
 .titlefr {
+  font-family: Comic Sans MS;
   font-size: 72px;
   background: -webkit-linear-gradient(#3a6e9a, #9198e5);
   -webkit-background-clip: text;
@@ -99,4 +104,20 @@
   }
 }
 
+.sign{
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.signconsole{
+  font-family: Comic Sans MS;
+  font-weight:bolder;
+  background: -webkit-linear-gradient(#3a6e9a, #9198e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  grid-column: 2;
+  grid-row: 1 ;
+}

@@ -17,6 +17,13 @@ const Sandra = () => {
                    <h1 className='titlefr'>FRANCOIS</h1>
                 </div>
             </div>
+            <div className='sign'>
+                <p className='signconsole'>#console.log(coucou)</p>
+                <p className='signconsole'>#teamLému</p>
+                <p className='signconsole'>#Francois2022</p>
+                <p className='signconsole'>#Allez Bisous</p>
+                <p className='signconsole'>#Les Gifs c'est la vie</p>
+            </div>
       </div>
     )
 }
