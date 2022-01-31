@@ -1,0 +1,265 @@
+.davy {
+  height: 100vh;
+  width: 100%;
+  background-color: lightgray;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.cadre {
+  padding: 0 5%;
+  margin: 0 10%;
+  top: 0;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  left: 0;
+}
+.thanks {
+  display: flex;
+  position: fixed;
+  margin-left: -3000px;
+  font-size: 150%;
+}
+.autre {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.coucou {
+  font-size: 400%;
+}
+
+#coucou {
+  animation-name: auRevoirCoucou;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#thanks {
+  animation-name: merciF;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.grid {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: calc(70vh / 3);
+}
+.un img {
+  animation-name: fleche1;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  height: 50px;
+  width: 50px;
+}
+.trois {
+  display: flex;
+  justify-content: center;
+}
+.trois img {
+  animation-name: fleche2;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  height: 50px;
+  width: 50px;
+}
+.quatre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  grid-column: 1 / 4;
+}
+.quatre p {
+  animation-name: texte;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  color: yellow;
+}
+.cinq {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+}
+.cinq h4 {
+  animation-name: fleche4;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  font-size: 40px;
+}
+.six {
+  display: flex;
+  justify-content: center;
+}
+.six img {
+  animation-name: fleche3;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  height: 50px;
+  width: 50px;
+}
+
+@keyframes fleche1 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  1% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(70vw, 0px);
+  }
+  80% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes fleche2 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(0px, calc(2 * (70vh / 3))) rotate(180deg);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes fleche3 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(0px, 0px) rotate(180deg);
+  }
+  60% {
+    transform: translate(-70vw, 0px);
+  }
+  80%{
+    transform:  translate(-70vw, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes fleche4 {
+  0% {
+    transform: rotate(90deg);
+  }
+  48% {
+    transform: rotate(90deg);
+  }
+  49% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(90deg);
+  }
+  
+  
+}
+
+@keyframes merciF {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  35% {
+    transform: translate(0px, 0px);
+  }
+
+  70% {
+    transform: translate(1450px, 0px);
+    
+  }
+  75% {
+    color: black
+  }
+  78%{
+    color: purple;
+  }
+  100% {
+    transform: translate(1450px, 0px);
+    color: purple;
+  }
+}
+
+@keyframes auRevoirCoucou {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(0px, 0px);
+    color: red;
+  }
+  22% {
+    transform: rotate(-30deg);
+  }
+  25% {
+    transform: translate(0px, 0px) rotate(-30deg);
+  }
+  70% {
+    transform: translate(1500px, 0px);
+  }
+  100% {
+    transform: translate(1500px, 0px);
+  }
+}
+
+@keyframes texte {
+  0% {
+    transform: rotate(0);
+    color: yellow;
+  }
+  28% {
+    transform: rotate(0);
+  }
+  30% {
+    color: yellow;
+  }
+  31% {
+    color: red;
+  }
+  52% {
+    transform: rotate(180deg);
+    color: red;
+    
+  }
+    75% {
+    color: orange;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .coucou {
+    font-size: 500%;
+  }
+  .thanks {
+    font-size: 350%;
+  }
+  .quatre {
+    font-size: 100px;
+  }
+}
