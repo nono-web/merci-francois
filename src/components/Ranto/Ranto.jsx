@@ -14,7 +14,7 @@ const Ranto = () => {
             <h1 className="glace-fam"> Ceci est une glace !!! </h1>
                 <img src={glace} />
             <div className="box-thanks"> 
-                <h2 className="thanks-f"> Merci pour François!</h2>
+                <h2 className="thanks-f"> Merci François!</h2>
             </div>
         </main>
     )
