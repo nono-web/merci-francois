@@ -149,7 +149,29 @@
 }
 
 .arnaud {
-  text-align: center;
-  font-size: 30px;
-  background-color: rgba(65, 63, 63, 0.116);
+  opacity: 0;
+}
+
+.arnaud-button-selected {
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(blue, white);
+    opacity: 1;
+
+}
+
+.arnaud-button {
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color:rgba(0, 225, 255, 0.473);
+    padding: 1rem;
+}
+
+.arnaud-button:hover {
+    background-color: rgb(128, 240, 128);
+}
+
+.arnaud-button:focus {
+    background-color: rgb(238, 173, 93);
+    border-radius: 16px 0px 16px 0px;
 }
