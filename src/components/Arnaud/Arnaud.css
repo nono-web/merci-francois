@@ -1,0 +1,155 @@
+.a-app {
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(65, 63, 63, 0.116) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-f {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-f span:nth-child(1) {
+    border-color: #3c09f1;
+    border-radius: 48% 52% 55% 45% / 45% 34% 66% 55%;
+}
+
+.a-f span:nth-child(2) {
+    border-color: #ee0c1f ;
+    border-radius: 74% 26% 68% 32% / 21% 55% 45% 79%;
+    animation-direction: reverse;
+}
+
+.a-f span:nth-child(3) {
+    border-color: #0de217 ;
+    border-radius: 43% 57% 57% 43% / 49% 70% 30% 51%;
+    animation-duration: 2,5s;
+}
+
+.a-f span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    pointer-events: none;
+    animation: animate 5s linear infinite;
+}
+
+.a-f1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-f1 span:nth-child(1) {
+    border-color: #e64032;
+    border-radius: 48% 52% 55% 45% / 45% 34% 66% 55%;
+}
+
+.a-f1 span:nth-child(2) {
+    border-color: #F6B801 ;
+    border-radius: 74% 26% 68% 32% / 21% 55% 45% 79%;
+    animation-direction: reverse;
+}
+
+.a-f1 span:nth-child(3) {
+    border-color: #31a452 ;
+    border-radius: 43% 57% 57% 43% / 49% 70% 30% 51%;
+    animation-duration: 2,5s;
+}
+
+.a-f1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    pointer-events: none;
+    animation: animate 5s linear infinite;
+}
+
+
+.a-f2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-f2 span:nth-child(1) {
+    border-color: #f88705;
+    border-radius: 48% 52% 35% 65% / 14% 77% 23% 86%
+}
+
+.a-f2 span:nth-child(2) {
+    border-color: #0105f6 ;
+    border-radius: 74% 26% 68% 32% / 21% 55% 45% 79%;
+    animation-direction: reverse;
+}
+
+.a-f2 span:nth-child(3) {
+    border-color: #0de4d9 ;
+    border-radius: 43% 57% 57% 43% / 49% 70% 30% 51%;
+    animation-duration: 2,5s;
+}
+
+.a-f2 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    pointer-events: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.a-f h2 {
+    color: black;
+    font-family: consolas, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.a-f1 h2 {
+    color: black;
+    font-size: 20px;
+    font-family: consolas, sans-serif;
+    font-weight: 500;
+}
+
+.a-f2 h2 {
+    color: black;
+    font-size: 20px;
+    font-family: consolas, sans-serif;
+    font-weight: 500;
+}
+
+.arnaud {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(65, 63, 63, 0.116);
+}
