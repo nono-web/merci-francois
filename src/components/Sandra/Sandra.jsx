@@ -22,7 +22,7 @@ const Sandra = () => {
                 <p className='signconsole'>#teamLému</p>
                 <p className='signconsole'>#Francois2022</p>
                 <p className='signconsole'>#Allez Bisous</p>
-                <p className='signconsole'>#Les Gifs c'est la vie</p>
+                <p className='signconsole'>#Les Emoji c'est la vie</p>
             </div>
       </div>
     )
