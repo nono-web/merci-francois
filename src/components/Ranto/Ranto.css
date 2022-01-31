@@ -1,0 +1,21 @@
+.whatsup-r {
+    font-family: "Comic Sans", cursive;
+}
+
+.glace-fam {
+    font-family: "Comic Sans", cursive;
+}
+
+.box-thanks {
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #72caf0;
+    font-size: 16px;
+}
+
+.thanks-f {
+    font-family: "Comic Sans", cursive;
+    color: white;
+}
