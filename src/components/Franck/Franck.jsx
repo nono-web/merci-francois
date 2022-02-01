@@ -44,10 +44,10 @@ const Franck = () => {
         }
         else if (slideAnim.index === 1 && !slideAnim.inProgress){
 
-            setSlideAnim({index: 5, inProgress: true})
+            setSlideAnim({index: 8, inProgress: true})
 
             setTimeout(() => {
-                setSlideAnim({index:  5, inProgress: false})
+                setSlideAnim({index:  8, inProgress: false})
             }, 400)
         }
     }
@@ -77,7 +77,7 @@ const Franck = () => {
 
 
             <div className="container-dots">
-                {Array.from({length: 5}).map((item, index) => {
+                {Array.from({length: 8}).map((item, index) => {
                     return <div 
                     className={slideAnim.index === index + 1 ? "dot active" : "dot"}
                     onClick={() => moveDot(index + 1)}
