@@ -80,3 +80,13 @@
 .dot.active {
   background: rgb(32, 32, 32);
 }
+.slogan {
+  font-size: 1.8rem;
+  font-weight: bold;
+
+}
+.sign {
+  font-family: 'Parisienne', cursive;
+  font-size: 1.5rem;
+  text-align: right;
+}

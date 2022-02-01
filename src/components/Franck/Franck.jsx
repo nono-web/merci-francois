@@ -58,9 +58,9 @@ const Franck = () => {
 
     return (
       <section className="franck">
-        <p>Voici quelques images pour se souvenir de ces cinq mois à la wild. Merci François</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, porro aliquid quod eius quibusdam fugit natus quaerat excepturi id nostrum soluta, praesentium saepe dolorem dolore nobis! Minus provident est possimus!</p>
-        <p>Franck</p>
+        <p>Voici quelques images pour se souvenir de ces cinq mois à la Wild.</p>
+        <p><strong>Merci François pour ton engagement, ta bonne humeur et ta patience</strong></p>
+        <p className="slogan">François 2022 !</p>
         <div className="container-slider">
             {dataSlider.map((obj, index) => {
                 return (
@@ -85,6 +85,7 @@ const Franck = () => {
                 })}
             </div>
         </div>
+        <p className="sign">Franck</p>
       </section>
     )
 }
