@@ -2,8 +2,8 @@ import React from 'react'
 
 const Franck = () => {
     return (
-        <div>
-            Coucou Franck
+        <div className='prenom'>
+            Franck
         </div>
     )
 }

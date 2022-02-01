@@ -37,3 +37,12 @@ body {
 .students-messages {
     margin: 2rem;;
 }
+
+.prenom {
+  margin: 1rem;
+  height: 70px;
+  font-size: 2rem;
+  align-items: center;
+  color: var(--blue);
+  font-family: 'Press Start 2P', cursive; 
+}

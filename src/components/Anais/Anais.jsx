@@ -48,7 +48,11 @@ const Anais = () => {
   }, [answer]);
 
   return (
+    
     <section className="anais-container">
+      <div className='prenom'>
+      Anais
+    </div>
       {!messageDisplayed && (
         <div className="anais-rebus">
           <h3>Rébus :</h3>

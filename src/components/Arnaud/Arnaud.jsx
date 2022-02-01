@@ -9,6 +9,9 @@ const Arnaud = () => {
   };
   return (
     <div className="trop">
+        <div className='prenom'>
+      Arnaud
+    </div>
       <div className="a-app">
         <div className="a-f">
           <span></span>
