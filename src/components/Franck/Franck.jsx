@@ -44,10 +44,10 @@ const Franck = () => {
         }
         else if (slideAnim.index === 1 && !slideAnim.inProgress){
 
-            setSlideAnim({index: 8, inProgress: true})
+            setSlideAnim({index: 9, inProgress: true})
 
             setTimeout(() => {
-                setSlideAnim({index:  8, inProgress: false})
+                setSlideAnim({index:  9, inProgress: false})
             }, 400)
         }
     }
@@ -58,8 +58,9 @@ const Franck = () => {
 
     return (
       <section className="franck">
-        <p>Voici quelques images pour se souvenir de ces cinq mois à la Wild.</p>
-        <p><strong>Merci François pour ton engagement, ta bonne humeur et ta patience</strong></p>
+        <p><strong>Merci François pour ton engagement, ton enthousiasme, ta bonne humeur et ta patience</strong></p>
+        <p>Ci-dessous voici quelques images pour se souvenir de ces cinq mois à la Wild.</p>
+        <p className="sign">Franck</p>
         <p className="slogan">François 2022 !</p>
         <div className="container-slider">
             {dataSlider.map((obj, index) => {
@@ -77,7 +78,7 @@ const Franck = () => {
 
 
             <div className="container-dots">
-                {Array.from({length: 8}).map((item, index) => {
+                {Array.from({length: 9}).map((item, index) => {
                     return <div 
                     className={slideAnim.index === index + 1 ? "dot active" : "dot"}
                     onClick={() => moveDot(index + 1)}
@@ -85,7 +86,6 @@ const Franck = () => {
                 })}
             </div>
         </div>
-        <p className="sign">Franck</p>
       </section>
     )
 }

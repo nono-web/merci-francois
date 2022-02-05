@@ -88,5 +88,6 @@
 .sign {
   font-family: 'Parisienne', cursive;
   font-size: 1.5rem;
+  padding-left: 200px;;
   text-align: right;
 }
