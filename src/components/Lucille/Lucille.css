@@ -1,0 +1,66 @@
+.thank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(30, 130, 197);
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  animation: thankcolor 15s infinite;
+}
+
+@keyframes thankcolor {
+    10%      { color: hsl(360, 65%, 45%); }
+    20%      { color: hsl( 36, 80%, 45%); }
+    30%      { color: hsl( 72, 75%, 35%); }
+    40%      { color: hsl(108, 65%, 35%); }
+    50%      { color: hsl(144, 75%, 35%); }
+    60%      { color: hsl(180, 75%, 35%); }
+    70%      { color: hsl(216, 60%, 45%); }
+    80%      { color: hsl(252, 65%, 50%); }
+    90%      { color: hsl(288, 60%, 40%); }
+}
+
+.back {
+    background-color: rgb(252, 252, 252);
+    animation: backcolor 20s infinite;
+    padding: 40px;
+    border-radius: 10px;
+    opacity: 70%;
+  }
+  
+  @keyframes backcolor {
+      10%      { background-color: hsl(108, 65%, 35%); }
+      20%      { background-color: hsl(144, 75%, 35%); }
+      30%      { background-color: hsl(180, 75%, 35%); }
+      40%      { background-color: hsl(216, 60%, 45%); }
+      50%      { background-color: hsl(252, 65%, 50%); }
+      60%      { background-color: hsl(288, 60%, 40%); }
+      70%      { background-color: hsl(360, 65%, 45%); }
+      80%      { background-color: hsl( 36, 80%, 45%); }
+      90%      { background-color: hsl( 72, 75%, 35%); }
+  }
+
+  .thank2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(30, 130, 197);
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: fantasy;
+    margin-top: 15px;
+    animation: thankcolor 10s infinite;
+  }
+  
+  @keyframes thankcolor {
+      10%      { color: hsl(360, 65%, 45%); }
+      20%      { color: hsl( 36, 80%, 45%); }
+      30%      { color: hsl( 72, 75%, 35%); }
+      40%      { color: hsl(108, 65%, 35%); }
+      50%      { color: hsl(144, 75%, 35%); }
+      60%      { color: hsl(180, 75%, 35%); }
+      70%      { color: hsl(216, 60%, 45%); }
+      80%      { color: hsl(252, 65%, 50%); }
+      90%      { color: hsl(288, 60%, 40%); }
+  }
