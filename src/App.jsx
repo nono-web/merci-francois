@@ -4,7 +4,7 @@ import Arnaud from './components/Arnaud/Arnaud';
 import Claire from './components/Claire/Claire';
 import Davy from './components/Davy/Davy';
 import Esteban from './components/Esteban/Esteban';
-import Francesco from './components/Francesco/Francesco';
+// import Francesco from './components/Francesco/Francesco';
 import Franck from './components/Franck/Franck';
 import Lucille from './components/Lucille/Lucille';
 import Paul from './components/Paul/Paul';
@@ -26,7 +26,7 @@ function App() {
     <Claire/>,
     <Davy />,
     <Esteban />,
-    <Francesco />,
+    // <Francesco />,
     <Franck />,
     <Lucille />,
     <Paul />,
