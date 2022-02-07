@@ -7,6 +7,7 @@
 	font-family: 'Quicksand', sans-serif;
 	font-size: 40px;
 	background-image: url("../../assets/galaxy.jpg");
+	filter: drop-shadow(0 0 1rem rgb(156, 94, 0));
 }
 span{
 	margin: 0 2px;
@@ -14,12 +15,19 @@ span{
 	text-shadow: 0 0 2px rgba(0, 0, 0, .45);
 	animation: span 5s ease-in infinite alternate;
 }
+
+.emoji-smile{
+	filter: drop-shadow(0 0 1rem rgb(255, 153, 0));
+}
+
+.emoji-rocket{
+	filter: drop-shadow(0 0 1rem rgb(0, 174, 255));
+}
 .main{
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-  
-  	
+	
 	@media(max-width: 600px){ transform: scale(.65); }
 }
 .letter{
@@ -27,7 +35,7 @@ span{
 	height: 28px;
 	width: 27px;
 	/* border: 2.5px solid #FF1EAD; */
-	border: 2.35px solid black;
+	border: 3.95px solid rgb(0, 0, 0);
 	border-radius: 14px;
 	box-shadow:
 		0 0 2px rgba(0, 0, 0, .75),
