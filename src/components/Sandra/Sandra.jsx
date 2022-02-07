@@ -19,7 +19,7 @@ const Sandra = () => {
             <h1 className="titlefr">FRANCOIS PRESIDENT</h1>
           </div>
         </div>
-        <div className="sign">
+        <div className="signSandra">
           <p className="signconsole">#console.log(coucou)</p>
           <p className="signconsole">#teamLému</p>
           <p className="signconsole">#Francois2022</p>
