@@ -1,10 +1,10 @@
 .title-app {
   margin: 3rem;
-  height: 70px;
+  height: 650px;
   font-size: 2.5rem;
   align-items: center;
   color: var(--blue);
-  font-family: 'Press Start 2P', cursive; 
+  font-family: 'Press Start 2P', cursive;
   transition: all 0.2s ease-out;
 }
 

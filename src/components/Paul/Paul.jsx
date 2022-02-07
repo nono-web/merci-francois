@@ -4,7 +4,7 @@ import "./Paul.css";
 const Paul = () => {
   return (
     <>
-      <div>Paul</div>
+      <div className="prenom">Paul</div>
       <div>
         <h1>When François is your teacher</h1>
         <a href="https://imgflip.com/i/631kf4">
