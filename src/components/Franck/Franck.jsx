@@ -58,6 +58,9 @@ const Franck = () => {
 
     return (
       <section className="franck">
+        <div className='prenom'>
+            Franck
+        </div>
         <p><strong>Merci François pour ton engagement, ton enthousiasme, ta bonne humeur et ta patience</strong></p>
         <p>Ci-dessous voici quelques images pour se souvenir de ces cinq mois à la Wild.</p>
         <p className="sign">Franck</p>

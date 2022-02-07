@@ -5,9 +5,9 @@ import './Title.css';
 const Title = () => {
     return (
         <div className='title-app'>
-            <img src={logo} alt="" />
+          <img src={logo} alt="" />
           <p>Merci François</p> 
-            
+          <p className="sign">(Logo by Francesco)</p>  
         </div>
     )
 }
