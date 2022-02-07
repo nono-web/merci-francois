@@ -23,7 +23,7 @@ function App() {
   const students = [
     <Anais />,
     <Arnaud />,
-    <Claire/>,
+    // <Claire/>,
     <Davy />,
     <Esteban />,
     // <Francesco />,
@@ -34,7 +34,7 @@ function App() {
     <Rodolphe />,
     <Salim />,
     <Sandra />,
-    <Stanislas />,
+    // <Stanislas />,
     <Vincent />,
   ];
 
