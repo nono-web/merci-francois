@@ -41,7 +41,7 @@
     height: 100%;
     border: 2px solid #fff;
     pointer-events: none;
-    animation: animate 5s linear infinite;
+    animation: animates 5s linear infinite;
 }
 
 .a-f1 {
@@ -78,7 +78,7 @@
     height: 100%;
     border: 2px solid #fff;
     pointer-events: none;
-    animation: animate 5s linear infinite;
+    animation: animates 5s linear infinite;
 }
 
 
@@ -116,9 +116,9 @@
     height: 100%;
     border: 2px solid #fff;
     pointer-events: none;
-    animation: animate 5s linear infinite;
+    animation: animates 5s linear infinite;
 }
-@keyframes animate {
+@keyframes animates {
     0% {
         transform: rotate(0deg);
     }
