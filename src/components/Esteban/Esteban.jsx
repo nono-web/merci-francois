@@ -32,7 +32,8 @@ const Esteban = () => {
           <span>I</span>
           <span>S</span>
           <span>!!</span>
-          <span>😍🚀</span>
+          <span className="emoji-smile">😍</span>
+          <span className="emoji-rocket">🚀</span>
         </div>
       </div>
     </div>
